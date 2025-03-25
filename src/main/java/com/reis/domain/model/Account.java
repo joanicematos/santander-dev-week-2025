@@ -4,15 +4,15 @@ import jakarta.persistence.*;
 
 import java.math.BigDecimal;
 
-@Entity(name = "tb_accout")
-public class Accout {
+@Entity(name = "tb_account")
+public class Account {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(unique = true)
-    private String name;
+    private String number;
 
     private String agency;
 
@@ -30,12 +30,12 @@ public class Accout {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getNumber() {
+        return number;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNumber(String number) {
+        this.number = number;
     }
 
     public String getAgency() {
@@ -62,3 +62,4 @@ public class Accout {
         this.limit = limit;
     }
 }
+

@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    #url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    url: jdbc:postgresql://shuttle.proxy.rlwy.net:42241/railway
+    username: postgres
+    password: UQUkcLTXkvOcKOUxLnyqZBtphcsgZGFS
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate

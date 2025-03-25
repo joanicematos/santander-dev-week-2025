@@ -1,0 +1,1 @@
+web: java -jar target/classes/com/reis/SantanderDevWeek2025Application.class
