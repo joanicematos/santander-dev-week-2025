@@ -39,13 +39,11 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!--
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		-->
 
 		<dependency>
 			<groupId>org.postgresql</groupId>
@@ -66,13 +64,6 @@
 			<version>2.5.0</version>
 		</dependency>
 	</dependencies>
-
-	<!-- tasks.jar {
-		manifest {
-			attributes["Main-Class"] = "com.reis.SantanderDevWeek2025Application"
-		}
-	} -->
-
 
 	<build>
 		<plugins>
